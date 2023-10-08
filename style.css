@@ -1,0 +1,116 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 92vh 8vh;
+}
+
+.navigation {
+  grid-row: 2;
+}
+
+.linkput input {
+  grid-row: 1;
+  bottom:210px;
+  margin-top: 24px;
+  margin-left: 23%;
+  height: 49px;
+  width: 57%;
+  padding: 0 10px;
+  border-radius: 18px;
+  position:fixed;
+  background-color:#9933ff;
+  outline:0;
+  border:0;
+ color:white;
+ font-weight:500;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+#forlink img {
+  width: 100%;
+  height: 50%;
+}
+
+#forlink h1 {
+  color: white;
+  font-size: 55px;
+}
+
+.linkput {
+  width: 100%;
+  height: 28vh;
+position:fixed;
+}
+
+.navigation {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+span {
+  width: 90px;
+  height: 45px;
+  border-radius: 22px;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#green{
+  color:red;
+  margin-left:13px;
+}
+#but{
+  position: absolute;
+  bottom:40px;
+  left:150px;
+  padding:13px 40px;
+  outline:0;
+  border:0;
+  font-size:22px;
+  background:#9933ff;
+  border-radius:22px;
+  color:white;
+  font-weight:300;
+}
+.linkput input::placeholder{
+  color:white;
+}
+#content{
+  display:none;
+}
+#internet{
+ background-image:url("nocon.jpg");
+ background-size:cover;
+ color:white;
+ display:none;
+}
+#internet h1{
+  position: absolute;
+  bottom:230px;
+  font-size:54px;
+  font-weight:300;
+}
+#internet h3{
+  color:gray;
+  position:absolute;
+  bottom:200px;
+  margin:5px;
+  font-weight:300;
+}
