@@ -8,7 +8,7 @@
 .container{
   background-color: black;
   width: 100%;
-  height:90vh;
+  height:99vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 92vh 8vh;
