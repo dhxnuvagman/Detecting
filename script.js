@@ -22,6 +22,7 @@ const wha=document.getElementById("whats")
 var linktext=document.getElementById("linktext")
 
 function linkrun(){
+  checkinternet();
   console.log("You clicked link");
   inst.style.backgroundColor="white";
   fac.style.backgroundColor="white";
@@ -30,6 +31,7 @@ function linkrun(){
   document.getElementById("forlink").style.display="block";
 }
 function instrun(){
+  checkinternet();
   console.log("You clicked Instagram")
   lin.style.backgroundColor="white";
   fac.style.backgroundColor="white";
@@ -38,6 +40,7 @@ function instrun(){
   document.getElementById("forlink").style.display="none";
 }
 function facrun(){
+checkinternet();
   console.log("You clicked Facebook")
   inst.style.backgroundColor="white";
   lin.style.backgroundColor="white";
@@ -46,6 +49,7 @@ function facrun(){
   document.getElementById("forlink").style.display="none";
 }
 function wharun(){
+  checkinternet();
   console.log("You clicked WhatsApp")
   inst.style.backgroundColor="white";
   fac.style.backgroundColor="white";
