@@ -92,25 +92,3 @@ span {
 .linkput input::placeholder{
   color:white;
 }
-#content{
-  display:none;
-}
-#internet{
- background-image:url("nocon.jpg");
- background-size:cover;
- color:white;
- display:none;
-}
-#internet h1{
-  position: absolute;
-  bottom:230px;
-  font-size:54px;
-  font-weight:300;
-}
-#internet h3{
-  color:gray;
-  position:absolute;
-  bottom:200px;
-  margin:5px;
-  font-weight:300;
-}
